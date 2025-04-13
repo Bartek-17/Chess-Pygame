@@ -719,7 +719,7 @@ pick_side()
 # checking moves at the start of the game
 black_options = check_moves(black_pieces, black_locations, 'black')
 white_options = check_moves(white_pieces, white_locations, 'white')
-print(black_options)
+
 run = True
 while run:
     timer.tick(fps)
